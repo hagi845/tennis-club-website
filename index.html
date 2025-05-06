@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>◯◯市テニスクラブ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">◯◯市テニスクラブ</div>
+            <ul>
+                <li><a href="#about">クラブについて</a></li>
+                <li><a href="#facilities">施設案内</a></li>
+                <li><a href="#schedule">活動スケジュール</a></li>
+                <li><a href="#membership">会員募集</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>◯◯市テニスクラブ</h1>
+            <p>テニスを通じて、健康で豊かな生活を</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>クラブについて</h2>
+            <div class="about-content">
+                <p>◯◯市テニスクラブは、初心者から上級者まで、幅広いレベルの方々が楽しめるテニスクラブです。</p>
+                <p>明るく活気のある雰囲気の中で、テニス技術の向上と健康増進を目指しています。</p>
+                
+                <div class="club-info">
+                    <h3>クラブ創立</h3>
+                    <p>昭和50(1975)年4月6日</p>
+                    
+                    <h3>活動内容</h3>
+                    <p>初心者からベテラン、老若男女の35名ほど（20代～80代）が集まりほぼ毎週末、和気あいあいと活動している社会人クラブです。</p>
+                    
+                    <h3>所属団体</h3>
+                    <ul>
+                        <li>◯◯市テニス協会所属クラブ</li>
+                        <li>◯◯県テニス連盟にも加入（県大会出場可能）</li>
+                        <li>◯◯市スポーツ協会</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="facilities" class="section">
+            <h2>施設案内</h2>
+            <div class="facility-grid">
+                <div class="facility-item">
+                    <h3>コート</h3>
+                    <p>◯◯市体育協会総合公園S.C.テニスコート</p>
+                    <p>※コート取得できない場合は、市内の他のコートに変更となります</p>
+                </div>
+                <div class="facility-item">
+                    <h3>クラブハウス</h3>
+                    <p>シャワー・ロッカールーム完備</p>
+                </div>
+                <div class="facility-item">
+                    <h3>駐車場</h3>
+                    <p>30台収容可能</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2>活動スケジュール</h2>
+            <div class="schedule-grid">
+                <div class="schedule-item">
+                    <h3>通常練習</h3>
+                    <p>休日（土・日・祝）</p>
+                    <p>9:00 - 17:00</p>
+                </div>
+                <div class="schedule-item">
+                    <h3>初心者教室</h3>
+                    <p>毎週水曜日</p>
+                    <p>19:00 - 21:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="membership" class="section">
+            <h2>会員募集</h2>
+            <div class="membership-info">
+                <h3>募集対象</h3>
+                <p>あらゆる年齢(18才以上)・技量の新メンバーを歓迎します</p>
+                <ul>
+                    <li>久しぶりにテニスを再開したい人</li>
+                    <li>ブランクがあっても大丈夫です</li>
+                    <li>テニスを通じて健康になりたい人</li>
+                    <li>運動不足を解消したい人</li>
+                </ul>
+
+                <h3>会費</h3>
+                <p>年会費：税込7,200円（内協会費1,000円）</p>
+                <p>途中入会の場合は月割りで計算（翌月から税込520円/月）</p>
+                <p>ビジター練習参加：税込200円/1回</p>
+                
+                <p class="note">※体験は1人1回、見学は何度でも可能です</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>お問い合わせ</h2>
+            <div class="contact-info">
+                <p>見学・体験をご希望の方は、以下のフォームからお申し込みください。</p>
+                <p class="note">※体験、ビジター参加の方もクラブのHP、SNSへの掲載がされる場合があります。</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 ◯◯市テニスクラブ All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">TikTok</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
